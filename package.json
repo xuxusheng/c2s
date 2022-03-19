@@ -39,11 +39,19 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
+    "@types/lodash-es": "^4.17.6",
+    "eslint": "^8.11.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^7.0.4",
+    "prettier": "^2.6.0",
     "size-limit": "^7.0.8",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
     "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "camelcase": "^6.3.0",
+    "decamelize": "^6.0.0",
+    "lodash-es": "^4.17.21"
   }
 }
