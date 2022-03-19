@@ -1,7 +1,22 @@
 {
+  "name": "@xusheng/c2s",
   "version": "0.1.0",
+  "author": "许盛",
+  "description": "convert object key from camelCase to snake_case and vice versa.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxusheng/c2s.git"
+  },
+  "keywords": [
+    "camelcase",
+    "decamelize",
+    "sourcemap",
+    "react",
+    "testing"
+  ],
   "license": "MIT",
   "main": "dist/index.js",
+  "module": "dist/c2s.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -24,9 +39,6 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "c2s",
-  "author": "许盛",
-  "module": "dist/c2s.esm.js",
   "size-limit": [
     {
       "path": "dist/c2s.cjs.production.min.js",
